@@ -1,0 +1,94 @@
+body {
+  background-image: url(../todo.images/fondoTodo.jpg);
+  background-size: 100%;
+  padding: 10rem;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    .gridTitle {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 450px;
+      .typographyTitle1 {
+        font-family: "Comic Sans MS";
+        font-style: oblique;
+        font-size: 4rem;
+        font-weight: 700;
+      }
+      .typographyTitle2 {
+        color: rgb(138, 138, 138);
+        font-family: "Comic Sans MS";
+        font-size: 4rem;
+        font-weight: 400;
+      }
+    }
+    .divFormTodo {
+      .formTodo {
+        display: flex;
+        width: 450px;
+        .itemTodo {
+          font-family: "Comic Sans MS";
+          margin-top: 1rem;
+          width: 100%;
+        }
+      }
+    }
+    .divTodo {
+      .cardListItems {
+        background-color: rgb(250, 250, 250);
+        display: flex;
+        margin-top: 0.1rem;
+        width: 450px;
+        .itemTodo {
+          background-color: transparent;
+          border: 0;
+          color: darkslategray;
+          width: 100%;
+          font-family: "Comic Sans MS";
+          font-size: 1rem;
+          font-style: oblique;
+          outline: none;
+        }
+        .DeleteItem {
+          font-size: 1.5rem;
+          margin-left: auto;
+          margin-right: 0.8rem;
+          opacity: 0.1;
+
+          &:hover {
+            color: red;
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .footerTodo {
+      display: flex;
+      margin-top: 1rem;
+      width: 450px;
+      .textTarea {
+        font-family: "Comic Sans MS";
+        font-weight: bolder;
+        margin-top: 0.3rem;
+      }
+      .NoTodos {
+        color: red;
+        font-family: "Comic Sans MS";
+        font-size: 1.3rem;
+        margin-top: 0.1rem;
+      }
+      .buttonsFooter{
+        margin-left: auto;
+      }
+    }
+  }
+}
