@@ -91,7 +91,7 @@
     "@material/layout-grid": "^5.1.0",
     "@material/toolbar": "^2.3.0",
     "@material/typography": "^5.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2"
   },
   "jest": {
